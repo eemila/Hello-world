@@ -1,0 +1,343 @@
+font-family: 'Caesar Dressing', cursive;
+font-family: 'Open Sans', sans-serif;
+
+* {
+    box-sizing: border-box; 
+}
+
+.container {
+    width: 900px; 
+    margin: 0 auto; 
+}
+
+.btn { /*do stylowania czerwonych przycisków !!! SPRAWDZIC O CO CHODZI Z TYMI CIENIAMI WOKÓŁ BTNÓW*/ 
+    background-color: #ff0000; 
+    color: #fff; 
+    font-weight: 900;
+    font-size: 12px; 
+    text-transform: uppercase; 
+    border-radius: 7px; 
+    box-shadow: none; 
+    padding: 15px 40px; 
+    display: inline-block; 
+    /* needed for hover: */
+    transition: all .3s ease; 
+}
+
+/* Hover nie wynika z layoutu, ale dodałam, żeby pzrećwiczyć */
+
+.btn:hover {
+    background-color: #db3838;
+    color: #fff;
+}
+
+.row {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.column {
+    padding: 10px;
+    margin: 60px 0 60px 0; 
+    flex: 1;  
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Main banner */
+.main-banner {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover; 
+    padding-top: 30px; 
+}
+        
+.upper-bar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.nav-bar {
+    display: flex; 
+}
+
+.nav-bar a {
+    margin-right: 0; 
+    margin-left: 25px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff; 
+    font-weight: 600;
+}
+               
+.main-banner-content {
+    display: flex; 
+    flex-direction: column; 
+    padding-bottom: 90px; 
+}
+
+.main-title {
+    margin: 0 auto; 
+    font-family: "Caesar Dressing", cursive;
+    font-size: 120px; 
+    color: #fff;
+    padding: 90px; 
+}
+                        
+.main-banner-txt {
+    margin: 0 auto; 
+    color: #fff; 
+    margin-bottom: 60px; 
+    font-family: "Times New Roman", serif;
+    text-align: center; 
+}
+              
+.main-banner-btn {
+    background-color: #fff;
+    color: #ff0000; 
+    border-radius: 5px; 
+    -webkit-box-shadow: -1px 1px 1px 0px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 1px 1px 0px rgba(0,0,0,1);
+    box-shadow: -1px 1px 1px 0px rgba(0,0,0,1);
+    text-transform: uppercase; 
+    font-weight: 900;
+    padding: 20px; 
+    width: 200px; 
+    display: inline-block; 
+    margin: 0 auto;
+    transition: 0.3s;  
+}
+
+/* hover nie wynika z projektu, ale dodałam, żeby poćwiczyć*/
+.main-banner-btn:hover {
+        transform: scale(1.1);
+}
+
+            
+/* Section with articles - red titles */
+.art-title {
+    font-family: 'Caesar Dressing', cursive;
+    color: #ff0000; 
+    margin: 0 0 20px 0; 
+    font-size: 24px; 
+    align-self: flex-start; 
+}
+
+.art-txt {
+    color: #777; 
+    font-weight: 300; 
+    text-align: justify; 
+    font-size: 14px; 
+    margin-bottom: 20px; 
+}
+
+/* Red section with some info */
+.important-info {
+    background-color: #ff0000; 
+    color: #fff; 
+}
+
+.important-info-ctn {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+.important-info-txt {
+    width: 450px; 
+    margin: 80px 20px 80px 0; 
+    font-size: 14px; 
+}
+
+.important-info-txt > p:first-child{
+    margin-bottom: 15px; 
+} 
+
+.important-info-title { 
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 44px; 
+    width: 450px; 
+    margin: 80px 0 80px 10px; 
+}
+                        
+
+/* Section with round photos             */
+.circle-photo-img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+}
+
+.circle-photo-txt {
+    text-align: center; 
+    color: #777; 
+    font-size: 14px; 
+    margin: 20px 0; 
+}
+                           
+.bottom-articles {
+    background-color: #f6f6f6; 
+}
+
+.bottom-art-txt {
+    color: #777; 
+    font-size: 14px; 
+    text-align: justify; 
+}
+
+/* Footer */
+ .footer {
+    background-color: #292929; 
+}
+
+.footer-img {
+    margin: 50px 0; 
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.footer-nav {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    margin-bottom: 40px;  
+}
+
+.footer-nav a {
+    list-style-type: none;
+    text-decoration: none; 
+    text-transform: uppercase; 
+    color: #fff; 
+    margin-right: 20px; 
+}
+
+.copyright {
+    display: inline-block; 
+    color: #777; 
+    margin-bottom: 40px; 
+    font-size: 12px; 
+}
+
+/* add media queries */
+* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
