@@ -9,12 +9,14 @@
 * [Inspiration](#inspiration)
 
 ## General info
-This file is to present my progress in webdevelopment. First project is very simple (El.Papriko), second has some additional features (Yellow), third is a little bit more complex (Malina).
+Websites are not responsive (yet).
+This file is to present my progress in webdevelopment. First project is very simple (El.Papriko, cars), second has some additional features (Yellow), third is a little bit more complex (Malina).
 The first projects from this file can be compared with recently added project so as to check what was my starting point at webdevelopment and what I've learnt so far.
 
 ## Technologies
 * HTML5
 * CSS3
+* JavaScript
 
 ## Status
 Project is: _in progress_ - media queries to be added.
