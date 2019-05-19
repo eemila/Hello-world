@@ -1,0 +1,332 @@
+font-family: 'Satisfy', cursive;
+font-family: 'Open Sans', sans-serif;
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width:1140px;
+    margin:0 auto;
+}
+
+.row {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.col {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 40px; 
+}
+
+.btns {
+    border: none; 
+    background-color: #FF007D; 
+    color: #fff; 
+    font-size: 14px; 
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5%;
+    padding: 20px 25px; 
+}
+
+.btns:hover{
+    cursor: pointer; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Top bar */
+.nav-bar {
+    display: flex; 
+    justify-content: space-between;  
+}
+
+.header-logo {
+    align-self: center; 
+    margin: 20px 0;
+}
+
+.main-menu {
+    display: flex; 
+    align-items: center; 
+}
+
+.main-menu li {
+    justify-content: space-between; 
+    margin: 20px 0 20px 30px; 
+} 
+
+.main-menu a {
+    display: inline-block; 
+    list-style-type: none;
+    text-decoration: none; 
+    color:  #A8ABB6;
+    font-weight: 700;  
+    font-size: 20px;
+    padding: 20px 0; 
+}
+
+.main-menu a:hover {
+    color: #FF007E; 
+}
+
+/* Main banner */
+.main-banner {
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),
+    url("../images/main-header-bg.jpg"); 
+    background-size: cover; 
+    background-position-y: -50px; 
+    background-repeat: no-repeat; 
+    padding: 40px 0 140px 0; 
+    height: 600px; 
+}
+
+.page-title {
+    font-family: 'Satisfy', cursive;
+    color: #fff;
+    font-size: 120px; 
+    padding: 110px 0 60px 0;
+    margin-top: 20px; 
+    text-align: center; 
+}
+
+.page-motto {
+    color:#D9D9DC;  
+    font-size: 18px; 
+    text-align: center; 
+    margin-bottom: 60px; 
+    line-height: 1.5;
+}
+
+.main-btn-ctn {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.main-btn {
+    display: inline-block; 
+    border: 1px solid #fff; 
+    border-radius: 4%; 
+    background-color: transparent; 
+    color: #fff; 
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px; 
+    padding: 22px;  
+    margin-bottom: 60px;
+}
+
+.main-btn:hover {
+    cursor: pointer; 
+}
+
+.addon {
+    position: relative; 
+    left: 470px; 
+    bottom: -92px;
+}
+
+.arrow-down {
+    width: 30px; 
+    position: absolute; 
+    left: 628px; 
+    bottom: -205px; 
+    z-index: 2;
+}
+
+/* Circle photos section */
+.circle-photos {
+    padding: 100px 0; 
+}
+.circle-photos-img {
+    border-radius: 50%; 
+    width: 220px; 
+    height: 220px; 
+}
+.circle-photos-title {
+    color: #434343; 
+    font-weight: 700;
+    font-size: 18px; 
+    margin: 40px 0 30px 0;
+}
+.circle-photos-txt {
+    text-align: center; 
+    color: #A8ABB6;
+    font-size: 14px;
+    margin-bottom: 40px; 
+}
+
+/* Slogan section */
+.slogan {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ),
+                    url("../images/paralax-bg.jpg"); 
+    background-size: 150%; 
+    background-repeat: no-repeat;
+    background-position: -150px; 
+    height: 470px; 
+}
+
+.slogan-ctn {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.slogan-title  {
+    color: #fff; 
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+    text-align: center; 
+    padding: 150px 0 50px 0; 
+     
+}
+
+.slogan-txt {
+    text-align: center; 
+    color: #D9D9DC;
+    font-size: 25px; 
+    padding: 0 80px; 
+    line-height: 1.5; 
+} 
+
+/* Section with articles */
+.articles {
+    padding: 100px 0; 
+}
+
+.art-img { 
+    width: 120%; 
+    height: 250px; 
+}
+
+.art-title {
+    color: #434343; 
+    font-weight: 700;
+    font-size: 18px; 
+    margin: 40px 0 30px 0;
+}
+
+.art-txt {
+    text-align: center; 
+    color: #A8ABB6;
+    font-size: 14px;
+    margin-bottom: 40px; 
+}
+
+
+/* Newsletter form */
+.form-sec{
+        background-color: #FF007D; 
+        padding: 100px 0; 
+}
+
+.form-ctn {
+    display: flex; 
+    justify-content: center; 
+}
+.subscribe {
+    color: #fff;
+    font-size: 32px; 
+    font-weight: 300;
+    text-align: center; 
+    margin-bottom: 30px; 
+}
+
+.main-form-input {
+    width: 180px; 
+    border: none; 
+    border-radius: 5px; 
+    margin: 10px; 
+    height: 59px; 
+    width: 330px; 
+    font-size: 16px; 
+    font-family: 'Open Sans', sans-serif;
+    color: #A8ABB6;
+    padding-left: 30px;
+}
+
+.form-btn {
+    background-color: transparent; 
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: 700; 
+    border: 2px solid #fff; 
+    border-radius: 5px;
+    padding: 10px 100px; 
+    margin: 10px; 
+    height: 60px; 
+    width: 330px; 
+}
+
+
+/* Map section */
+/* bardzo zły pomysł na wstawienie mapy!!! Oglądający może ją przesuwać i na dodatek widac moje konto google*/
+
+.map {
+    height: 485px; 
+}
+
+.bg-map {
+    position: relative; 
+    width: 1400px; 
+    height: 485px; 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%); 
+}
+
+.map-marker {
+    position: relative;
+    left: 598px; 
+    bottom: 338px; 
+    z-index: 100; 
+}
+
+
+/* Footer */
+.mainpage-footer {
+    background-color: #292929; 
+    padding: 70px 0; 
+}
+
+.footer-logo {
+    margin-bottom: 50px; 
+}
+
+.footer-ctn {
+    display: flex; 
+}
+
+.footer-list {
+    margin-right: 160px; 
+}
+
+.footer-list li a {
+    color: #A8ABB6;; 
+    text-decoration: none; 
+    line-height: 2; 
+}
+
+.copyright {
+    color: #4E4E4E;
+    align-self: flex-start;
+    padding-left: 300px;
+}
