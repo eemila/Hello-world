@@ -10,7 +10,15 @@
 
 ## General info
 Websites are not responsive (yet).
-This file is to present my progress in webdevelopment. Two of them are very simple (El.Papriko, cars) and two - a little bit more complex (Yellow, Malina).
+This file is to present my progress in webdevelopment. Two of them are very simple:
+* el.papriko, ![el.papriko layout](https://github.com/eemila/Hello-world/blob/master/el-papriko/el-papriko.jpg)
+* cars ![cars layout](https://github.com/eemila/Hello-world/blob/master/cars/samochody.jpg)
+
+and two - a little bit more complex: 
+
+* yellow  ![yellow layout](https://github.com/eemila/Hello-world/blob/master/yellow/zolty%20layout.jpg)
+* malina ![malina layout](https://github.com/eemila/Hello-world/blob/master/malina/malina-layout.jpg)
+
 The first projects from this file can be compared with recently added projects so as to check what was my starting point at webdevelopment and what I've learnt so far.
 
 ## Technologies
