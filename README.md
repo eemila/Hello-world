@@ -9,7 +9,7 @@
 * [Inspiration](#inspiration)
 
 ## General info
-Websites are not responsive (yet).
+Websites are not responsive.
 This file is to present my progress in webdevelopment. Two of them are very simple:
 * el.papriko, ![el.papriko layout](https://github.com/eemila/Hello-world/blob/master/el-papriko/el-papriko.jpg)
 * cars ![cars layout](https://github.com/eemila/Hello-world/blob/master/cars/samochody.jpg)
@@ -27,10 +27,7 @@ The first projects from this file can be compared with recently added projects s
 * JavaScript
 
 ## Status
-* El.Papriko: _in progress_ - media queries to be added
-* Cars: _in progress_ - media queries to be added
-* Yellow: _in progress_ - media queries to be added
-* Malina: _in progress_ - media queries to be added, map with marker to be added
+* Malina: _in progress_ - map with marker to be added
 
 ## Inspiration
 All projects are based on ready layouts received during my programming course.
